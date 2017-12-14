@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jackc/sqlfmt"
+	"github.com/artwr/sqlfmt"
 )
 
-const Version = "0.1.0"
+const Version = "0.1.1"
 
 var options struct {
 	write   bool
