@@ -85,7 +85,7 @@ func (left RenderToken) SpaceBetween(right RenderToken) bool {
 }
 
 func NewTextRenderer(w io.Writer) *TextRenderer {
-	return &TextRenderer{w: w, indent: "  "}
+	return &TextRenderer{w: w, indent: "    "}
 }
 
 func (tr *TextRenderer) Text(val string, tokenType int) {
